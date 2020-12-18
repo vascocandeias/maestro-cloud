@@ -1,0 +1,5 @@
+{
+ "name": "example2_static_inf.csv",
+ "method": "prediction",
+ "file": "id,x,y,z\n1,1,0,1\n2,0,0,0\n3,1,1,1"
+}

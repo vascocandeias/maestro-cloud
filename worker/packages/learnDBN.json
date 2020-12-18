@@ -1,0 +1,34 @@
+{
+	"cmd": [
+		"java",
+		"-jar",
+		"packages/learnDBN.jar",
+		"-mt",
+		"-imp",
+		"-pm",
+		"-d",
+		"-o",
+		"dbn.txt"
+	],
+	"params": {
+		"-ns": false,
+		"-sp": false,
+		"-bcDBN": false,
+		"-cDBN": false,
+		"-ind": 1,
+		"-m": 1,
+		"-p": 1
+	},
+	"inputFiles": {
+		"-i": true
+	},
+	"outputFiles": {
+		"dbn.txt": {},
+		"dbn.json": {},
+		"imputed.csv": {
+			"table": "datasets",
+			"discrete": true,
+			"missing": false
+		}
+	}
+}

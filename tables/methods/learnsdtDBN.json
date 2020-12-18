@@ -1,0 +1,46 @@
+{
+    "checkboxes": {
+        "-ns": "Learn non-stationary network",
+        "-sp": "Force intra-slice connectivity to be a tree"
+    },
+    "fields": {
+        "-b": {
+            "description": "Number of static parents",
+            "value": 2
+        },
+        "-m": {
+            "description": "Markov lag",
+            "value": 1
+        },
+        "-p": {
+            "description": "Number of parents",
+            "value": 1
+        }
+    },
+    "files": {
+		"-is": "Static features file",
+		"-mA_dynPast": "Mandatory inter-slice relations",
+		"-mA_dynSame": "Mandatory intra-slice relations",
+		"-mA_static": "Mandatory static relations",
+		"-mNotA_dynPast": "Forbidden inter-slice relations",
+		"-mNotA_dynSame": "Forbidden intra-slice relations",
+		"-mNotA_static": "Forbidden static relations"
+    },
+    "mainFile": {
+        "name": "-i",
+        "metadata": {
+            "discrete": true,
+            "missing": false
+        }
+    },
+    "method": "learnsdtDBN",
+    "options": {
+        "-s": {
+            "description": "Scoring function",
+            "values": [
+                "mdl",
+                "ll"
+            ]
+        }
+    }
+}

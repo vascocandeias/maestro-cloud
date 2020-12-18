@@ -1,0 +1,21 @@
+{
+	"cmd": [
+		"java",
+		"-jar",
+		"packages/sdtDBN.jar",
+		"-outInf",
+		"inference.csv"
+	],
+	"params": {
+		"-infFmt": "distrSampl"
+	},
+	"inputFiles": {
+		"-inf": "variables to perform inference on",
+		"-fromFile": "serialized object of the sdtDBN",
+		"-obs": "observations where inference should be done",
+		"-obsStatic": "static observations to make inference"
+	},
+	"outputFiles": {
+		"inference.csv": {}
+	}
+}

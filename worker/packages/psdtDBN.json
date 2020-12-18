@@ -1,0 +1,21 @@
+{
+	"cmd": [
+		"java",
+		"-jar",
+		"packages/sdtDBN.jar",
+		"-tf",
+		"trajectories.csv"
+	],
+	"params": {
+		"-infFmt": "distrSampl",
+		"-t": 1
+	},
+	"inputFiles": {
+		"-fromFile": "serialized object of the sdtDBN",
+		"-obs": "observations where inference should be done",
+		"-obsStatic": "static observations to make inference"
+	},
+	"outputFiles": {
+		"trajectories.csv": {}
+	}
+}

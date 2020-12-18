@@ -1,0 +1,14 @@
+{
+    "checkboxes": {},
+    "fields": {},
+    "files": {},
+    "mainFile": {
+        "name": "-i",
+        "metadata": {
+            "discrete": [],
+            "missing": true
+        }
+    },
+    "method": "lr",
+    "options": {}
+}

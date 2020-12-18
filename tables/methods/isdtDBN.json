@@ -1,0 +1,21 @@
+{
+    "checkboxes": {},
+    "fields": {},
+    "files": {
+		"-fromFile": "Serialized object of the sdtDBN",
+		"-obs": "Dynamic observations",
+		"-obsStatic": "Static observations"
+    },
+    "mainFile": {},
+    "method": "isdtDBN",
+    "options": {
+        "-infFmt": {
+            "description": "Estimation mode",
+            "values": [
+                "distrSampl",
+                "mostProb",
+                "distrib"
+            ]
+        }
+    }
+}

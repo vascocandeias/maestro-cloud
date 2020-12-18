@@ -1,0 +1,5 @@
+{
+ "name": "example1_static.csv",
+ "method": "modeling",
+ "file": "id,x,y,z\n1,0,1,1\n2,1,1,0\n3,0,1,0"
+}

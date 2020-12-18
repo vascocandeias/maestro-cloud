@@ -1,0 +1,28 @@
+{
+	"cmd": [
+		"python3",
+		"packages/time_series_tools.py",
+		"eqw"
+	],
+	"params": {
+		"-n": 2,
+		"-d": ""
+	},
+	"inputFiles": {
+		"-i": true
+	},
+	"outputFiles": {
+		"discrete.csv": {
+			"table": "datasets",
+			"discrete": true,
+			"original": {
+				"-i": {
+					"table": "datasets",
+					"attributes": [
+						"missing"
+					]
+				}
+			}
+		}
+	}
+}

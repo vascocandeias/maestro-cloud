@@ -1,0 +1,33 @@
+{
+    "checkboxes": {
+        "-ns": "Learn non-stationary network"
+    },
+    "fields": {
+        "-m": {
+            "description": "Markov lag",
+            "value": 1
+        },
+        "-p": {
+            "description": "Number of parents",
+            "value": 1
+        }
+    },
+    "files": {},
+    "mainFile": {
+        "name": "-i",
+        "metadata": {
+            "discrete": true,
+            "missing": false
+        }
+    },
+    "method": "meteor",
+    "options": {
+        "-s": {
+            "description": "Scoring function",
+            "values": [
+                "mdl",
+                "ll"
+            ]
+        }
+    }
+}

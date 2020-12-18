@@ -1,0 +1,17 @@
+{
+	"cmd": [
+		"python3",
+		"packages/time_series_tools.py",
+		"lr"
+	],
+	"inputFiles": {
+		"-i": true
+	},
+	"outputFiles": {
+		"imputed.csv": {
+			"table": "datasets",
+			"discrete": [],
+			"missing": false
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+    "checkboxes": {
+        "-ns": "Learn non-stationary network",
+        "-sp": "Force intra-slice connectivity to be a tree"
+    },
+    "fields": {
+        "-ind": {
+            "description": "Intra-slice in-degree",
+            "value": 1
+        },
+        "-k": {
+            "description": "Number of clusters",
+            "value": 2
+        },
+        "-m": {
+            "description": "Markov lag",
+            "value": 1
+        },
+        "-p": {
+            "description": "Number of parents",
+            "value": 1
+        }
+    },
+    "files": {},
+    "mainFile": {
+        "name": "-i",
+        "metadata": {
+            "discrete": true,
+            "missing": false
+        }
+    },
+    "method": "learnDBM",
+    "options": {
+        "type": {
+            "description": "DBN structure",
+            "values": [
+                "-tDBN",
+                "-bcDBN",
+                "-cDBN"
+            ]
+        }
+    }
+}

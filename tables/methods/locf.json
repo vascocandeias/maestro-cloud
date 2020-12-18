@@ -1,0 +1,13 @@
+{
+    "checkboxes": {},
+    "fields": {},
+    "files": {},
+    "mainFile": {
+        "name": "-i",
+        "metadata": {
+            "missing": true
+        }
+    },
+    "method": "locf",
+    "options": {}
+}

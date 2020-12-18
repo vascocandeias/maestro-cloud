@@ -1,0 +1,25 @@
+{
+    "checkboxes": {},
+    "fields": {
+        "-t": {
+            "description": "Final timestamp",
+            "value": 1
+        }
+    },
+    "files": {
+		"-fromFile": "Serialized object of the sdtDBN",
+		"-obs": "Dynamic observations",
+		"-obsStatic": "Static observations"
+    },
+    "mainFile": {},
+    "method": "psdtDBN",
+    "options": {
+        "-infFmt": {
+            "description": "Estimation mode",
+            "values": [
+                "distrSampl",
+                "mostProb"
+            ]
+        }
+    }
+}

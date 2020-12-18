@@ -1,0 +1,5 @@
+{
+ "name": "example1_dynamic.csv",
+ "method": "modeling",
+ "file": "id,a__0,b__0,a__1,b__1,a__2,b__2\n1,0,0,0,1,1,1\n2,0,1,1,0,0,0\n3,0,1,0,0,1,0"
+}

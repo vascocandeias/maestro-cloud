@@ -1,0 +1,22 @@
+{
+	"cmd": [
+		"java",
+		"-jar",
+		"packages/meteor.jar"
+	],
+	"params": {
+		"-ns": false,
+		"-m": 1,
+		"-p": 1,
+		"-s": "mdl"
+	},
+	"inputFiles": {
+		"-i": true
+	},
+	"outputFiles": {
+		"dbn.txt": {},
+		"dbn.json": {},
+		"subjects.csv": {},
+		"transitions.csv": {}
+	}
+}

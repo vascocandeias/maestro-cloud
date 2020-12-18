@@ -1,0 +1,22 @@
+{
+    "checkboxes": {},
+    "fields": {
+        "-n": {
+            "description": "Number of bins",
+            "value": 2
+        },
+        "-d": {
+            "description": "Discrete attributes space separated",
+            "value": ""
+        }
+    },
+    "files": {},
+    "mainFile": {
+        "name": "-i",
+        "metadata": {
+            "discrete": []
+        }
+    },
+    "method": "eqf",
+    "options": {}
+}

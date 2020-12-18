@@ -1,0 +1,30 @@
+{
+	"cmd": [
+		"java",
+		"-jar",
+		"packages/learnDBM.jar",
+		"-mt",
+		"-pm",
+		"-o",
+		"clusters.csv",
+		"-d"
+	],
+	"params": {
+		"-ns": false,
+		"-sp": false,
+		"-bcDBN": false,
+		"-cDBN": false,
+		"-ind": 1,
+		"-k": 2,
+		"-m": 1,
+		"-p": 1
+	},
+	"inputFiles": {
+		"-i": "Input CSV file to be used for network learning"
+	},
+	"outputFiles": {
+		"dbn.txt": {},
+		"dbn.json": {},
+		"clusters.csv": {}
+	}
+}

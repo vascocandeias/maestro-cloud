@@ -1,0 +1,5 @@
+{
+ "name": "example2_infVars.csv",
+ "method": "prediction",
+ "file": "a,1\na,3\nb,4\nb,1"
+}

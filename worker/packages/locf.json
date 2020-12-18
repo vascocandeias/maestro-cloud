@@ -1,0 +1,24 @@
+{
+	"cmd": [
+		"python3",
+		"packages/time_series_tools.py",
+		"locf"
+	],
+	"inputFiles": {
+		"-i": true
+	},
+	"outputFiles": {
+		"imputed.csv": {
+			"table": "datasets",
+			"missing": false,
+			"original": {
+				"-i": {
+					"table": "datasets",
+					"attributes": [
+						"discrete"
+					]
+				}
+			}
+		}
+	}
+}

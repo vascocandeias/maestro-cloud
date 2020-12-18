@@ -1,0 +1,36 @@
+{
+	"cmd": [
+		"java",
+		"-jar",
+		"packages/sdtDBN.jar",
+		"-pm",
+		"-d",
+		"-toFile",
+		"dbn.ser"
+	],
+	"params": {
+		"-b": 1,
+		"-m": 1,
+		"-ns": false,
+		"-s": "mdl",
+		"-p": 1,
+		"-sp": false
+	},
+	"inputFiles": {
+		"-i": "file to be used for network learning",
+		"-is": "static features to be used for network learning",
+		"-mA_dynPast": "dynamic nodes from t'<t that must be parents of each Xi[t]",
+		"-mA_dynSame": "dynamic nodes from t that must be parents of each Xi[t]",
+		"-mA_static": "static nodes that must be parents of each Xi[t]",
+		"-mNotA_dynPast": "dynamic nodes from t'<t that cannot be parents of each Xi[t]",
+		"-mNotA_dynSame": "dynamic nodes from t that cannot be parents of each Xi[t]",
+		"-mNotA_static": "static nodes that cannot be parents of each Xi[t]"
+	},
+	"outputFiles": {
+		"dbn.txt": {},
+		"dbn.json": {},
+		"dbn.ser": {
+			"table": "networks"
+		}
+	}
+}
