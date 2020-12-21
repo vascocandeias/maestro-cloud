@@ -7,4 +7,6 @@ This repo contains the functions used in the cloud implementation of [MAESTRO](h
 
 This scalable architecture ensures that demanding data analysis software can be efficiently executed in the cloud without concurrent requests influencing eachother. Even though this implementation uses packages based in dynamic Bayesian network, it may also be used to deploy any other data analysis tool, despite the language used for its development.
 
+For a more detailed explanation of this architecture, you may read the resulting [article (available soon)] or underlying [thesis (available soon)].
+
 You can also find the front-end code [here](https://github.com/vascocandeias/maestro) and an on-premises version of the back-end, for local deployment, [here](https://github.com/vascocandeias/maestro-backend).
