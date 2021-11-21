@@ -36,7 +36,7 @@ def lambda_handler(event, context):
     networksTable.delete_item(
         Key={
             "userId": event["userId"],
-            "datasetId": event["requestId"]
+            "datasetId": event["requestId"] + "_dbn.ser"
         }
     )
     
